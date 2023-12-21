@@ -5,13 +5,11 @@ const Parent=()=>{
     {id:1,title:"learn React",status:"not completed"},
     {id:2,title:"build react app",status:"not completed"},
     {id:3,title:"deploy react app",status:"not completed"},])
-    const status=()=>{
-
-    }
+    
     return(<>
     <div>
         <h1>Parent component</h1>
-        <Child data={data} status={status}/>
+        <Child data={data} setData={setData}/>
     </div>
     
     
